@@ -1,2 +1,30 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e5e0;
+  --brown: #bab1a0;
+}
+
 .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .navUl {
+    display: flex;
+    gap: 30px;
+    background-color: var(--primary-color);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .navItem {
+    padding: 8px 12px;
+  }
 }

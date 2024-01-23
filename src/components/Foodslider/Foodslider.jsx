@@ -1,0 +1,64 @@
+"use client";
+import "./foodslider.scss";
+import React, { useRef, useState } from "react";
+import { food } from "@/data";
+
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Image from "next/image";
+
+const Foodslider = () => {
+  return (
+    <div className="foodslider-container">
+      <div className="foodslider-title">
+        <h2>محبوب ترین آیتم ها</h2>
+        <p>پرطرفدارترین سفارشات ما بر اساس انتخاب مشتریان</p>
+      </div>
+      <div className="foodslider-slidebox">
+        <Swiper
+          spaceBetween={10}
+          centeredSlides={true}
+          slidesPerView={3}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          {food.map((item) => (
+            <SwiperSlide key={item.id} className="foodslider-slide">
+              <div className="foodslider-image-container">
+                <Image
+                  src={item.img}
+                  width={400}
+                  height={100}
+                  alt={item.title}
+                  className="foodslider-image"
+                />
+              </div>
+              <div className="foodslider-content-container">
+                <h3 className="foodsslider-title">{item.title}</h3>
+                <p className="foodsslider-price">{item.price} تومان</p>
+                <p className="foodsslider-restaurant">
+                  {" "}
+                  رستوران: {item.restaurant}
+                </p>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
+};
+
+export default Foodslider;

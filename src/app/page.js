@@ -1,9 +1,11 @@
-import Navbar from "@/components/Navbar/Navbar";
+import Foodslider from "@/components/Foodslider/Foodslider";
+import Homesection from "@/components/Homesection/Homesection";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Homesection />
+      <Foodslider />
     </div>
   );
 }

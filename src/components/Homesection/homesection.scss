@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e5e0;
+  --brown: #bab1a0;
+}
+
+.homepage {
+  background-image: url("../../../public/background.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+}
+
+.home-content-box {
+  margin-top: 200px;
+  margin-left: 350px;
+}
+
+.home-content-box h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: var(--light);
+  margin-bottom: 24px;
+}
+
+.home-content-box .home-description {
+  font-size: 21px;
+  color: var(--light);
+  margin-bottom: 10px;
+}
+.home-content-box .home-description2 {
+  font-size: 21px;
+  color: var(--brown);
+  font-weight: 900;
+}
+
+.home-btn-container {
+  margin-top: 30px;
+  margin-left: 400px;
+  display: flex;
+  gap: 12px;
+}
+
+.home-btn {
+  padding: 10px 25px;
+  font-size: 19px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background-color: var(--green-color);
+}
+
+.btn2 {
+  background-color: var(--light-orange);
+}

@@ -31,6 +31,8 @@
 
     .foodslider-slide {
       background-color: white;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
       .foodslider-image-container {
         position: relative;
         .foodslider-image {
@@ -38,7 +40,7 @@
         }
       }
 
-      .foodslider-content-container {
+      .tag-container {
         // position: absolute;
         bottom: 18px;
         right: 20px;
@@ -53,7 +55,7 @@
           padding: 5px 10px;
           border-radius: 7px;
           color: hsl(0, 0%, 100%);
-          font-size: 16px;
+          font-size: 14px;
         }
         .foodsslider-price {
           background-color: var(--green-color);
@@ -61,7 +63,7 @@
           padding: 5px 10px;
           border-radius: 7px;
           color: #fff;
-          font-size: 16px;
+          font-size: 14px;
         }
 
         .foodsslider-restaurant {
@@ -70,9 +72,26 @@
           padding: 5px 10px;
           border-radius: 7px;
           color: #ffffff;
-          font-size: 16px;
+          font-size: 14px;
         }
       }
     }
+  }
+  .foodslider-content-title {
+    padding: 8px 31px;
+    .fastfood-title {
+      font-size: 24px;
+      font-weight: 900;
+    }
+    .fastfood-description {
+      text-align: justify;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #3f5572;
+    }
+  }
+
+  .foodslider-content-container {
+    padding-bottom: 30px;
   }
 }

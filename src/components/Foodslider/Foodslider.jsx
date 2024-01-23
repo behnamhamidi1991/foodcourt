@@ -20,7 +20,7 @@ const Foodslider = () => {
       </div>
       <div className="foodslider-slidebox">
         <Swiper
-          spaceBetween={10}
+          spaceBetween={15}
           centeredSlides={true}
           slidesPerView={3}
           loop={true}
@@ -46,12 +46,18 @@ const Foodslider = () => {
                 />
               </div>
               <div className="foodslider-content-container">
-                <h3 className="foodsslider-title">{item.title}</h3>
-                <p className="foodsslider-price">{item.price} تومان</p>
-                <p className="foodsslider-restaurant">
-                  {" "}
-                  رستوران: {item.restaurant}
-                </p>
+                <div className="foodslider-content-title">
+                  <h3 className="fastfood-title">{item.title}</h3>
+                  <p className="fastfood-description">{item.description}</p>
+                </div>
+                <div className="tag-container">
+                  <h3 className="foodsslider-title">{item.category}</h3>
+                  <p className="foodsslider-price">{item.price} تومان</p>
+                  <p className="foodsslider-restaurant">
+                    {" "}
+                    رستوران: {item.restaurant}
+                  </p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

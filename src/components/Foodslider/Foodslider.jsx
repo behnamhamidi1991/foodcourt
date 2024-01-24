@@ -22,10 +22,10 @@ const Foodslider = () => {
         <Swiper
           spaceBetween={15}
           centeredSlides={true}
-          slidesPerView={3}
+          slidesPerView={1}
           breakpoints={{
-            1024: {
-              slidesPerView: 1,
+            940: {
+              slidesPerView: 3,
               spaceBetween: 15,
             },
           }}

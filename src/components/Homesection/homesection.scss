@@ -100,4 +100,56 @@
 }
 
 @media screen and (max-width: 634px) {
+  .homepage {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .home-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .homepage {
+    padding: 0 15px;
+  }
+
+  .home-content-box h1 {
+    font-size: 35px;
+  }
+
+  .home-content-box .home-description {
+    font-size: 16px;
+  }
+  .home-content-box .home-description2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .home-content-box h1 {
+    font-size: 24px;
+  }
+
+  .home-content-box .home-description {
+    font-size: 14px;
+  }
+  .home-content-box .home-description2 {
+    font-size: 14px;
+  }
 }

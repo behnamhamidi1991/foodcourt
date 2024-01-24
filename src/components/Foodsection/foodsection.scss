@@ -34,6 +34,7 @@
       background-color: black;
       border-radius: 20px;
       transition: all ease-in-out 0.1s;
+      position: relative;
       &:hover {
         transform: scale(1.01);
       }
@@ -42,6 +43,39 @@
         border-radius: 20px;
         cursor: pointer;
         opacity: 0.8;
+      }
+      .priceDetails {
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        h4 {
+          background-color: var(--green-color);
+          width: fit-content;
+          padding: 4px 8px;
+          color: #fff;
+          border-radius: 40px;
+        }
+
+        p {
+          background-color: var(--brown);
+          width: fit-content;
+          padding: 4px 8px;
+          color: #000000;
+          border-radius: 40px;
+        }
+        span {
+          background-color: var(--primary-color);
+          color: #fff;
+          width: fit-content;
+          padding: 4px 8px;
+          font-weight: 900;
+          border-radius: 40px;
+          font-size: 16px;
+        }
       }
     }
   }

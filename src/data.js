@@ -129,50 +129,62 @@ export const iranian = [
   {
     id: 1,
     img: iranian1,
+    price: "98.900",
   },
   {
     id: 2,
     img: iranian2,
+    price: "86.100",
   },
   {
     id: 3,
     img: iranian3,
+    price: "119.000",
   },
   {
     id: 4,
     img: iranian4,
+    price: "99.000",
   },
   {
     id: 5,
     img: iranian5,
+    price: "85.500",
   },
   {
     id: 6,
     img: iranian6,
+    price: "69.900",
   },
   {
     id: 7,
     img: iranian7,
+    price: "52.300",
   },
   {
     id: 8,
     img: iranian8,
+    price: "89.900",
   },
   {
     id: 9,
     img: iranian9,
+    price: "110.000",
   },
   {
     id: 10,
     img: iranian10,
+    price: "142.000",
   },
   {
     id: 11,
     img: iranian11,
+    price: "75.000",
   },
   {
     id: 12,
     img: iranian12,
+    price: "66.200",
   },
 ];
 

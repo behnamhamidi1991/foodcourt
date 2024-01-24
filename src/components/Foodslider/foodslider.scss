@@ -103,3 +103,16 @@
     padding: 100px 4%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .foodslider-container {
+    .foodslider-title {
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

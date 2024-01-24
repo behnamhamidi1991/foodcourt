@@ -15,8 +15,10 @@ const Foodslider = () => {
   return (
     <div className="foodslider-container">
       <div className="foodslider-title">
-        <h2>محبوب ترین آیتم ها</h2>
-        <p>پرطرفدارترین سفارشات ما بر اساس انتخاب مشتریان</p>
+        <h2 className="section-title">محبوب ترین آیتم ها</h2>
+        <p className="section-description">
+          پرطرفدارترین سفارشات ما بر اساس انتخاب مشتریان
+        </p>
       </div>
       <div className="foodslider-slidebox">
         <Swiper

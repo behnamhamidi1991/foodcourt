@@ -175,3 +175,43 @@ export const iranian = [
     img: iranian12,
   },
 ];
+
+import { IoPizzaOutline } from "react-icons/io5";
+import { LuSoup } from "react-icons/lu";
+import { GiChickenOven } from "react-icons/gi";
+import { FaHamburger } from "react-icons/fa";
+import { CgCoffee } from "react-icons/cg";
+import { GiCakeSlice } from "react-icons/gi";
+
+export const icons = [
+  {
+    id: 1,
+    icon: <IoPizzaOutline />,
+    title: "ایتالیایی",
+  },
+  {
+    id: 2,
+    icon: <LuSoup />,
+    title: "چینی",
+  },
+  {
+    id: 3,
+    icon: <GiChickenOven />,
+    title: "ایرانی",
+  },
+  {
+    id: 4,
+    icon: <FaHamburger />,
+    title: "فست فود",
+  },
+  {
+    id: 5,
+    icon: <CgCoffee />,
+    title: "کافی شاپ",
+  },
+  {
+    id: 6,
+    icon: <GiCakeSlice />,
+    title: "شیرینی",
+  },
+];

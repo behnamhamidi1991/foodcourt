@@ -1,5 +1,6 @@
 import React from "react";
 import "./homesection.scss";
+import Categories from "../Categories/Categories";
 
 const Homesection = () => {
   return (
@@ -15,6 +16,7 @@ const Homesection = () => {
         <button className="home-btn btn1">ثبت نام کنید</button>
         <button className="home-btn btn2">ورود به سایت</button>
       </div>
+      <Categories />
     </div>
   );
 };

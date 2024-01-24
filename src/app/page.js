@@ -6,7 +6,6 @@ import Homesection from "@/components/Homesection/Homesection";
 export default function Home() {
   return (
     <div>
-      <Homesection />
       <Foodslider />
       <Foodsection />
     </div>

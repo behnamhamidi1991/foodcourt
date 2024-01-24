@@ -1,11 +1,13 @@
 import React from "react";
 import "./homesection.scss";
 import Categories from "../Categories/Categories";
+import Navbar from "../Navbar/Navbar";
 
 const Homesection = () => {
   return (
     <div className="homepage">
       <div className="home-content-box">
+        <Navbar className="nav-guest" />
         <h1 className="home-title">کافی شاپ و فود کورت سورنا</h1>
         <p className="home-description">
           سفارش آنلاین انواع غذا و نوشیدنی با قیمت های متنوع و شگفت انگیز

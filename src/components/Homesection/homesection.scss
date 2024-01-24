@@ -22,8 +22,8 @@
 }
 
 .home-content-box {
-  margin-top: 200px;
-  margin-left: 350px;
+  margin-top: 110px;
+  margin-left: 230px;
 }
 
 .home-content-box h1 {
@@ -46,7 +46,7 @@
 
 .home-btn-container {
   margin-top: 30px;
-  margin-left: 400px;
+  margin-left: 300px;
   display: flex;
   gap: 12px;
 }
@@ -64,4 +64,40 @@
 
 .btn2 {
   background-color: var(--light-orange);
+}
+
+@media screen and (max-width: 1472px) {
+  .home-content-box {
+    margin-left: 160px;
+  }
+
+  .home-btn-container {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1268px) {
+  .home-content-box {
+    margin-left: 60px;
+  }
+
+  .home-btn-container {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 934px) {
+  .home-content-box h1 {
+    font-size: 40px;
+  }
+
+  .home-content-box .home-description {
+    font-size: 18px;
+  }
+  .home-content-box .home-description2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 634px) {
 }

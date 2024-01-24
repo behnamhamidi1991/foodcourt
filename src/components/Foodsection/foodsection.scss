@@ -80,3 +80,16 @@
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  .foodsection {
+    .title {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+}

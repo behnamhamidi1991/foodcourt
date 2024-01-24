@@ -111,3 +111,67 @@ export const food = [
     img: hotdog,
   },
 ];
+
+import iranian1 from "../public/iranian/1.jpg";
+import iranian2 from "../public/iranian/2.jpg";
+import iranian3 from "../public/iranian/3.jpg";
+import iranian4 from "../public/iranian/4.jpg";
+import iranian5 from "../public/iranian/5.jpg";
+import iranian6 from "../public/iranian/6.jpg";
+import iranian7 from "../public/iranian/7.jpg";
+import iranian8 from "../public/iranian/8.jpg";
+import iranian9 from "../public/iranian/9.jpg";
+import iranian10 from "../public/iranian/10.jpg";
+import iranian11 from "../public/iranian/11.jpg";
+import iranian12 from "../public/iranian/12.jpg";
+
+export const iranian = [
+  {
+    id: 1,
+    img: iranian1,
+  },
+  {
+    id: 2,
+    img: iranian2,
+  },
+  {
+    id: 3,
+    img: iranian3,
+  },
+  {
+    id: 4,
+    img: iranian4,
+  },
+  {
+    id: 5,
+    img: iranian5,
+  },
+  {
+    id: 6,
+    img: iranian6,
+  },
+  {
+    id: 7,
+    img: iranian7,
+  },
+  {
+    id: 8,
+    img: iranian8,
+  },
+  {
+    id: 9,
+    img: iranian9,
+  },
+  {
+    id: 10,
+    img: iranian10,
+  },
+  {
+    id: 11,
+    img: iranian11,
+  },
+  {
+    id: 12,
+    img: iranian12,
+  },
+];

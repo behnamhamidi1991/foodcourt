@@ -1,3 +1,4 @@
+import Foodsection from "@/components/Foodsection/Foodsection";
 import Foodslider from "@/components/Foodslider/Foodslider";
 import Homesection from "@/components/Homesection/Homesection";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Homesection />
       <Foodslider />
+      <Foodsection />
     </div>
   );
 }

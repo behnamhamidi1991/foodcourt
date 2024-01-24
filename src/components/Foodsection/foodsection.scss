@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e5e0;
+  --brown: #bab1a0;
+}
+
+.foodsection {
+  padding: 100px 10%;
+
+  .title {
+    h2 {
+      font-size: 32px;
+      color: var(--primary-color);
+      font-weight: 900;
+    }
+
+    p {
+      font-size: 18px;
+      color: var();
+      margin-bottom: 20px;
+      color: var(--primary-color);
+    }
+  }
+
+  .foodsection-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 12px;
+
+    .image-container {
+      background-color: black;
+      border-radius: 20px;
+      transition: all ease-in-out 0.1s;
+      &:hover {
+        transform: scale(1.01);
+      }
+      .iranian-image {
+        width: 100%;
+        border-radius: 20px;
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+  }
+}

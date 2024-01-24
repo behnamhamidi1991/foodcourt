@@ -152,3 +152,16 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 382px) {
+  .home-content-box h1 {
+    font-size: 22px;
+  }
+
+  .home-content-box .home-description {
+    font-size: 12px;
+  }
+  .home-content-box .home-description2 {
+    font-size: 12px;
+  }
+}

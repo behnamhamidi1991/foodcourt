@@ -49,3 +49,21 @@
     }
   }
 }
+
+@media screen and (max-width: 382px) {
+  .navbar {
+    .navUl {
+      gap: 15px;
+      .navItem {
+        .navLink {
+          .navLinkIcon {
+            font-size: 32px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

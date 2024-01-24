@@ -23,6 +23,12 @@ const Foodslider = () => {
           spaceBetween={15}
           centeredSlides={true}
           slidesPerView={3}
+          breakpoints={{
+            1024: {
+              slidesPerView: 1,
+              spaceBetween: 15,
+            },
+          }}
           loop={true}
           autoplay={{
             delay: 2500,

@@ -101,16 +101,10 @@
 
 @media screen and (max-width: 634px) {
   .homepage {
-    height: 700px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     color: #fff;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    text-align: right;
-    position: relative;
+
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.7);
   }
@@ -121,6 +115,11 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+  }
+
+  .home-btn-container {
+    margin: auto;
+    margin-top: -100px;
   }
 }
 

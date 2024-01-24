@@ -1,6 +1,10 @@
 import React from "react";
 import "./navbar.scss";
 import Link from "next/link";
+import { MdHome } from "react-icons/md";
+import { FaBlog } from "react-icons/fa6";
+import { MdEventRepeat } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,31 +13,30 @@ const Navbar = () => {
         <li className="navItem">
           {" "}
           <Link href="/" className="navLink">
-            صفحه اصلی
+            <MdHome className="navLinkIcon" />
+            <p>صفحه اصلی</p>
           </Link>{" "}
         </li>
         <li className="navItem">
           {" "}
           <Link href="/" className="navLink">
-            وبلاگ{" "}
+            <FaBlog className="navLinkIcon" />
+            <p>وبلاگ</p>
           </Link>{" "}
         </li>
         <li className="navItem">
           {" "}
           <Link href="/" className="navLink">
-            رویدادها{" "}
+            <MdEventRepeat className="navLinkIcon" />
+            <p>رویدادها</p>
           </Link>{" "}
         </li>
+
         <li className="navItem">
           {" "}
           <Link href="/" className="navLink">
-            درباره ما{" "}
-          </Link>{" "}
-        </li>
-        <li className="navItem">
-          {" "}
-          <Link href="/" className="navLink">
-            تماس با ما{" "}
+            <FaWhatsapp className="navLinkIcon" />
+            <p>تماس با ما</p>
           </Link>{" "}
         </li>
       </ul>

@@ -35,6 +35,9 @@
       .img-container {
         .post-image {
           width: 100%;
+          &:hover {
+            filter: brightness(90%) hue-rotate(45deg);
+          }
         }
       }
       .blog-content {

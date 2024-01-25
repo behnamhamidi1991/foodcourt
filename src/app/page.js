@@ -1,13 +1,19 @@
-import Categories from "@/components/Categories/Categories";
+"use client";
 import Foodsection from "@/components/Foodsection/Foodsection";
 import Foodslider from "@/components/Foodslider/Foodslider";
-import Homesection from "@/components/Homesection/Homesection";
+import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
+
   return (
-    <div>
+    <>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
       <Foodslider />
       <Foodsection />
-    </div>
+    </>
   );
 }

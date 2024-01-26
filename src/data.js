@@ -380,6 +380,7 @@ export const foodstory = [
     title: "پیراشکی لذیذ",
     description: "طعم لذیذ پیراشکی های مارو امتحان کنید",
     restaurant: "شیرینی پاسارگاد",
+    price: "48.000",
   },
   {
     id: 2,
@@ -387,6 +388,7 @@ export const foodstory = [
     title: "باقلوا تبریز",
     description: "طعم باقلوا با چای تازه خیلی میچسبه",
     restaurant: "شیرینی آلا",
+    price: "94.000",
   },
   {
     id: 3,
@@ -394,6 +396,7 @@ export const foodstory = [
     title: "پاستا پنه آلفردو",
     description: "پاستا پنه با سس مخصوص و نوشابه کوکا چه ترکیبی بشه",
     restaurant: "کافه رستوران سالیاری",
+    price: "186.000",
   },
   {
     id: 4,
@@ -401,6 +404,7 @@ export const foodstory = [
     title: "پیتزا ایتالیایی",
     description: "طعم پیتزای خوشمزه به همراه سس چهارفصل و نوشابه کوکا",
     restaurant: "کافه رستوران خوش طعم",
+    price: "141.000",
   },
   {
     id: 5,
@@ -408,6 +412,7 @@ export const foodstory = [
     title: "پاستا ترکیبی",
     description: "پاستا ترکیبی با سس مخصوص، سوسیس کوکتل و سبزیجات",
     restaurant: "کافه رستوران پاییز",
+    price: "108.000",
   },
   {
     id: 6,
@@ -415,6 +420,7 @@ export const foodstory = [
     title: "پای آمریکایی",
     description: "این پای با یک قهوه یا چای داغ خیلی میچسبه حتماً امتحان کنید",
     restaurant: "کافه مریم",
+    price: "55.000",
   },
   {
     id: 7,
@@ -422,6 +428,7 @@ export const foodstory = [
     title: "جوجه گریل شده مکزیکی",
     description: "اگر به طعم تند علاقه دارید این جوجه رو حتماً امتحان کنید",
     restaurant: "رستوران سالامی",
+    price: "126.000",
   },
   {
     id: 8,
@@ -429,5 +436,6 @@ export const foodstory = [
     title: "استیک گریل شده",
     description: "ترکیب استیک با سبزیجات و ادویه مخصوص فرانسوی",
     restaurant: "رستوران آرین",
+    price: "198.250",
   },
 ];

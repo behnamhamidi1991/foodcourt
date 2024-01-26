@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e5e0;
+  --brown: #bab1a0;
+}
+
+.foodstory-container {
+  padding: 100px 10%;
+  background-color: var(--light);
+  .page-title {
+    h2 {
+      font-size: 32px;
+      color: var(--primary-color);
+      font-weight: 900;
+    }
+
+    p {
+      font-size: 18px;
+      color: var();
+      margin-bottom: 20px;
+      color: var(--primary-color);
+    }
+  }
+
+  .slider-container {
+    cursor: pointer;
+    .mySwiper {
+      padding-top: 30px;
+      padding-bottom: 60px;
+
+      .slide {
+        width: 100%;
+        border-bottom: 4px solid var(--orange);
+        position: relative;
+        border-radius: 18px;
+        .imgContainer {
+          background-color: black;
+          border-radius: 18px;
+          .slide-image {
+            opacity: 0.5;
+            border-radius: 18px;
+          }
+        }
+      }
+      .slide-content {
+        position: absolute;
+        bottom: 26px;
+        right: 12px;
+        padding: 0 15px;
+        .slide-title {
+          font-size: 22px;
+          font-weight: 900;
+          color: #fff;
+          border-bottom: 4px solid var(--orange);
+          width: fit-content;
+          margin-bottom: 10px;
+          padding: 5px 0;
+        }
+        .slide-desc {
+          color: #fff;
+          font-size: 13px;
+          text-align: justify;
+          margin-bottom: 12px;
+        }
+        .slide-details {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          .restaurant {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 20px;
+          }
+          .price {
+            background-color: var(--green-color);
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -38,7 +38,7 @@ const Blog = () => {
               </div>
 
               <div className="content">
-                <p>{post.content}</p>
+                <p>{post.content.substring(0, 270)} ...</p>
               </div>
               <div className="button">بیشتر بخوانید</div>
             </div>

@@ -211,8 +211,8 @@
 
 @media screen and (max-width: 1092px) {
   .footer {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
     justify-content: center;
     .right {
       .right-bottom {
@@ -232,5 +232,10 @@
   .left-middle-links {
     flex-wrap: wrap;
     gap: 5px;
+  }
+
+  .right-icon-box ul {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

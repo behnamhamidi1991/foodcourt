@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e6e3;
+  --brown: #bab1a0;
+}
+
 .feedback-container {
   padding: 100px 10%;
 
@@ -37,8 +46,33 @@
             font-size: 28px;
             font-weight: 900;
             margin-bottom: 12px;
+            color: var(--green-color);
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.9;
+            text-align: justify;
+            color: var(--primary-color);
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .feedback-container {
+    padding: 100px 4%;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .feedback-container {
+    padding: 100px 4%;
+
+    .titleBox {
+      p {
+        font-size: 17px;
       }
     }
   }

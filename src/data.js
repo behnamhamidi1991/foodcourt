@@ -363,3 +363,71 @@ export const feedback = [
     img: person6,
   },
 ];
+
+import story1 from "../public/story/story1.jpg";
+import story2 from "../public/story/story2.jpg";
+import story3 from "../public/story/story3.jpg";
+import story4 from "../public/story/story4.jpg";
+import story5 from "../public/story/story5.jpg";
+import story6 from "../public/story/story6.jpg";
+import story7 from "../public/story/story7.jpg";
+import story8 from "../public/story/story8.jpg";
+
+export const foodstory = [
+  {
+    id: 1,
+    img: story1,
+    title: "پیراشکی لذیذ",
+    description: "طعم لذیذ پیراشکی های مارو امتحان کنید",
+    restaurant: "شیرینی پاسارگاد",
+  },
+  {
+    id: 2,
+    img: story2,
+    title: "باقلوا تبریز",
+    description: "طعم باقلوا با چای تازه خیلی میچسبه",
+    restaurant: "شیرینی آلا",
+  },
+  {
+    id: 3,
+    img: story3,
+    title: "پاستا پنه آلفردو",
+    description: "پاستا پنه با سس مخصوص و نوشابه کوکا چه ترکیبی بشه",
+    restaurant: "کافه رستوران سالیاری",
+  },
+  {
+    id: 4,
+    img: story4,
+    title: "پیتزا ایتالیایی",
+    description: "طعم پیتزای خوشمزه به همراه سس چهارفصل و نوشابه کوکا",
+    restaurant: "کافه رستوران خوش طعم",
+  },
+  {
+    id: 5,
+    img: story5,
+    title: "پاستا ترکیبی",
+    description: "پاستا ترکیبی با سس مخصوص، سوسیس کوکتل و سبزیجات",
+    restaurant: "کافه رستوران پاییز",
+  },
+  {
+    id: 6,
+    img: story6,
+    title: "پای آمریکایی",
+    description: "این پای با یک قهوه یا چای داغ خیلی میچسبه حتماً امتحان کنید",
+    restaurant: "کافه مریم",
+  },
+  {
+    id: 7,
+    img: story7,
+    title: "جوجه گریل شده مکزیکی",
+    description: "اگر به طعم تند علاقه دارید این جوجه رو حتماً امتحان کنید",
+    restaurant: "رستوران سالامی",
+  },
+  {
+    id: 8,
+    img: story8,
+    title: "استیک گریل شده",
+    description: "ترکیب استیک با سبزیجات و ادویه مخصوص فرانسوی",
+    restaurant: "رستوران آرین",
+  },
+];

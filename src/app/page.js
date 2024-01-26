@@ -3,6 +3,7 @@ import Blog from "@/components/Blog/Blog";
 import Feedback from "@/components/Feedback/Feedback";
 import Foodsection from "@/components/Foodsection/Foodsection";
 import Foodslider from "@/components/Foodslider/Foodslider";
+import Foodstory from "@/components/Foodstory/Foodstory";
 import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
@@ -16,8 +17,9 @@ export default function Home() {
       />
       <Foodslider />
       <Foodsection />
-      <Blog />
+      <Foodstory />
       <Feedback />
+      <Blog />
     </>
   );
 }

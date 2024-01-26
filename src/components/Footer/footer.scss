@@ -1,0 +1,125 @@
+:root {
+  --primary-color: #223c5f;
+  --green-color: #2a9dbf;
+  --orange: #fd8c3e;
+  --light-orange: #fa9e64;
+  --light: #e8e5e0;
+  --brown: #bab1a0;
+}
+
+.footer {
+  padding: 100px 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+  .right {
+    .right-header {
+      // GIVE MARGIN TO LEFT AS WELL
+      margin: 30px 0;
+      .right-header-title {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+      .icon {
+        width: 40px;
+      }
+      h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: var(--primary-color);
+      }
+      p {
+        color: #3a5578;
+        text-align: justify;
+        line-height: 1.8;
+      }
+    }
+
+    .right-middle {
+      background-color: gray;
+      width: 100%;
+      position: relative;
+      input {
+        width: 100%;
+        padding: 15px 20px;
+        border-bottom: 1px solid var(--primary-color);
+        outline: none;
+      }
+
+      button {
+        position: absolute;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 6px;
+        border: none;
+        left: 10px;
+        bottom: 5px;
+      }
+    }
+
+    .right-bottom {
+      margin-top: 30px;
+      .right-bottom-header {
+        h3 {
+          font-size: 21px;
+        }
+      }
+
+      .right-icon-box {
+        ul {
+          display: flex;
+          gap: 20px;
+          margin-top: 20px;
+          li {
+            font-size: 28px;
+            a {
+              color: var(--primary-color);
+              transition: all ease-in-out 0.1s;
+              &:hover {
+                color: var(--orange);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .left {
+    .left-top {
+      .left-top-header {
+        margin: 30px 0;
+        h3 {
+          font-size: 18px;
+          font-weight: 900;
+        }
+      }
+      .left-top-link {
+        .link-box {
+          h4 {
+            font-size: 20px;
+          }
+          li {
+            display: flex;
+            align-items: center;
+            transition: all ease-in-out 0.2s;
+            font-size: 14px;
+            line-height: 1.7;
+            cursor: pointer;
+            .arrowIcon {
+              font-size: 14px;
+            }
+            &:hover {
+              transform: translateX(-3px);
+              color: var(--green-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}

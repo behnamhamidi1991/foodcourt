@@ -382,6 +382,7 @@ export const foodstory = [
     restaurant: "شیرینی پاسارگاد",
     price: "48.000",
     profile: person1,
+    live: true,
   },
   {
     id: 2,
@@ -391,6 +392,7 @@ export const foodstory = [
     restaurant: "شیرینی آلا",
     price: "94.000",
     profile: person2,
+    live: true,
   },
   {
     id: 3,
@@ -400,6 +402,7 @@ export const foodstory = [
     restaurant: "کافه رستوران سالیاری",
     price: "186.000",
     profile: person3,
+    live: true,
   },
   {
     id: 4,
@@ -409,6 +412,7 @@ export const foodstory = [
     restaurant: "کافه رستوران خوش طعم",
     price: "141.000",
     profile: person4,
+    live: false,
   },
   {
     id: 5,
@@ -418,6 +422,7 @@ export const foodstory = [
     restaurant: "کافه رستوران پاییز",
     price: "108.000",
     profile: person5,
+    live: false,
   },
   {
     id: 6,
@@ -427,6 +432,7 @@ export const foodstory = [
     restaurant: "کافه مریم",
     price: "55.000",
     profile: person6,
+    live: true,
   },
   {
     id: 7,
@@ -436,6 +442,7 @@ export const foodstory = [
     restaurant: "رستوران سالامی",
     price: "126.000",
     profile: person3,
+    live: false,
   },
   {
     id: 8,
@@ -445,5 +452,6 @@ export const foodstory = [
     restaurant: "رستوران آرین",
     price: "198.250",
     profile: person2,
+    live: true,
   },
 ];

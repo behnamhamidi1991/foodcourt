@@ -59,6 +59,9 @@ const Foodstory = () => {
                   alt={story.title}
                   className="profile-image"
                 />
+                <span className={story.live === true ? "live" : "lifeOff"}>
+                  LIVE
+                </span>
               </div>
               <div className="imgContainer">
                 <Image

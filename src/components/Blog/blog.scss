@@ -28,8 +28,9 @@
 
   .post-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
     grid-gap: 18px;
+    justify-content: center;
     .post-box {
       background-color: #fff;
       .img-container {
@@ -88,5 +89,12 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .blog-container {
+    padding: 100px 4%;
+    background-color: var(--light);
   }
 }

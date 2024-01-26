@@ -381,6 +381,7 @@ export const foodstory = [
     description: "طعم لذیذ پیراشکی های مارو امتحان کنید",
     restaurant: "شیرینی پاسارگاد",
     price: "48.000",
+    profile: person1,
   },
   {
     id: 2,
@@ -389,6 +390,7 @@ export const foodstory = [
     description: "طعم باقلوا با چای تازه خیلی میچسبه",
     restaurant: "شیرینی آلا",
     price: "94.000",
+    profile: person2,
   },
   {
     id: 3,
@@ -397,6 +399,7 @@ export const foodstory = [
     description: "پاستا پنه با سس مخصوص و نوشابه کوکا چه ترکیبی بشه",
     restaurant: "کافه رستوران سالیاری",
     price: "186.000",
+    profile: person3,
   },
   {
     id: 4,
@@ -405,6 +408,7 @@ export const foodstory = [
     description: "طعم پیتزای خوشمزه به همراه سس چهارفصل و نوشابه کوکا",
     restaurant: "کافه رستوران خوش طعم",
     price: "141.000",
+    profile: person4,
   },
   {
     id: 5,
@@ -413,6 +417,7 @@ export const foodstory = [
     description: "پاستا ترکیبی با سس مخصوص، سوسیس کوکتل و سبزیجات",
     restaurant: "کافه رستوران پاییز",
     price: "108.000",
+    profile: person5,
   },
   {
     id: 6,
@@ -421,6 +426,7 @@ export const foodstory = [
     description: "این پای با یک قهوه یا چای داغ خیلی میچسبه حتماً امتحان کنید",
     restaurant: "کافه مریم",
     price: "55.000",
+    profile: person6,
   },
   {
     id: 7,
@@ -429,6 +435,7 @@ export const foodstory = [
     description: "اگر به طعم تند علاقه دارید این جوجه رو حتماً امتحان کنید",
     restaurant: "رستوران سالامی",
     price: "126.000",
+    profile: person3,
   },
   {
     id: 8,
@@ -437,5 +444,6 @@ export const foodstory = [
     description: "ترکیب استیک با سبزیجات و ادویه مخصوص فرانسوی",
     restaurant: "رستوران آرین",
     price: "198.250",
+    profile: person2,
   },
 ];

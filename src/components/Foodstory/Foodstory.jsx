@@ -53,6 +53,13 @@ const Foodstory = () => {
         >
           {foodstory.map((story) => (
             <SwiperSlide key={story.id} className="slide">
+              <div className="profile">
+                <Image
+                  src={story.profile}
+                  alt={story.title}
+                  className="profile-image"
+                />
+              </div>
               <div className="imgContainer">
                 <Image
                   src={story.img}
@@ -65,7 +72,7 @@ const Foodstory = () => {
                 <p className="slide-desc">{story.description}</p>
                 <div className="slide-details">
                   <p className="restaurant">{story.restaurant}</p>
-                  <p className="price">{story.price}</p>
+                  <p className="price">{story.price} تومان</p>
                 </div>
               </div>
             </SwiperSlide>

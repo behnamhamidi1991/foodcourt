@@ -34,8 +34,24 @@
       .slide {
         width: 100%;
         border-bottom: 4px solid var(--orange);
+        border-right: 1px solid var(--orange);
         position: relative;
         border-radius: 18px;
+
+        .profile {
+          position: absolute;
+          z-index: 1000;
+          right: 20px;
+          top: 20px;
+
+          .profile-image {
+            width: 70px;
+            border-radius: 50%;
+            border: solid 2px red;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          }
+        }
+
         .imgContainer {
           background-color: black;
           border-radius: 18px;

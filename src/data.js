@@ -228,12 +228,12 @@ export const icons = [
   },
 ];
 
-import restaurant from "../public/blog/restaurant.jpg";
-import chef from "../public/blog/chef.jpg";
-import coffee from "../public/blog/coffee.jpg";
-import delivery from "../public/blog/delivery.jpg";
-import kitchen from "../public/blog/kitchen.jpg";
-import blogBurger from "../public/blog/burger.jpg";
+import restaurant from "../public/restaurant.jpg";
+import chef from "../public/chef.jpg";
+import coffee from "../public/coffee.jpg";
+import delivery from "../public/delivery.jpg";
+import kitchen from "../public/kitchen.jpg";
+import blogBurger from "../public/burger.jpg";
 
 export const blogPost = [
   {
